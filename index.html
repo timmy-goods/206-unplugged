@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Unplugged</title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
@@ -23,15 +23,15 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-	
+
+<!--HEADER -->
 	<header>
-		
 		<div class="content-wrapper">
-			
-			<a href="#"><img src="img/unpluggedlogo.png" alt="unplugged logo"></a>
-			
+			<a href="#">
+				<img src="img/unpluggedlogo.png" alt="unplugged logo">
+			</a>
 			<div class="header-divider"></div>
-			
+	<!-- NAV -->
 			<nav>
 				<ul>
 					<li>
@@ -42,87 +42,124 @@
 					</li>
 				</ul>
 			</nav>
-			
 		</div>
-		
 	</header>
 	
 	
 <!-- MAIN WRAPPER -->
 	<main>
 		
-		<section class="hero">
-			
-			<img class="hero-img" src="" alt="Great outdoors">
-			
-			<h1>Retreat from the desk, return refreshed.</h1>
-			
+<!-- HERO AREA -->
+		<section class="hero-area">
+			<div class="content-wrapper">
+				<h1>Retreat from the desk, return refreshed.</h1>
+			</div>
 		</section>
 		
+<!-- FORM DOWNLOAD -->
 		<aside>
-			
-			<div class="prompt">
-				
-				<h3>Want to join the next retreat?</h3>
-				
-				<p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
-			
-			</div>
-			
-			<div class="download">
-				
-				<h3>Find out more</h3>
-				
-				<input type="text" name="name" value="email address">
-				
-				<input type="button" value="Download Itinerary">
-			
-			</div>
-		
+			<div class="content-wrapper">
+				<div class="form-description">
+					<h3>Want to join the next retreat?</h3>
+					<p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
+				</div>
+				<div class="download">
+					<h3>Find out more</h3>
+					<input type="text" name="name" value="name@email.com">
+					<input type="button" value="Download Itinerary">
+				</div>
+			</div> <!-- aside content wrapper ends -->
 		</aside>
-	
-	</main>
-	
-	<footer>
 		
+<!-- FEATURES -->
+		<section class="features">
+			<div class="content-wrapper">
+				<h2>Have the work week you always dreamed of - without the bad wifi.</h2>
+				<div class=features-items>
+			<!-- LOCATION -->
+					<article>
+						<p class="icon"></p>
+						<p class="item-description">Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+					</article>
+			<!-- ROOMS -->
+					<article>
+						<p class="icon"></p>
+						<p class="item-description">12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.</p>
+					</article>
+			<!-- FOOD -->
+					<article>
+						<p class="icon"></p>
+						<p class="item-description">Private chef team providing on demand meals - just like your team kitchen.</p>
+					</article>
+			<!-- TEAM BUILDING -->
+					<article>
+						<p class="icon"></p>
+						<p class="item-description">5 outdoor obstacle courses, including private beach 1/2 mile from bungalow.</p>
+					</article>
+			<!-- FACILITATOR -->
+					<article>
+						<p class="icon"></p>
+						<p class="item-description">Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
+					</article>
+			<!-- WIFI -->
+					<article>
+						<p class="icon"></p>
+						<p class="item-description">Dedicated computer room for times that you must use wifi.</p>
+					</article>
+				</div> <!-- end of features-items -->
+			</div> <!-- end features content wrapper -->
+		</section>
+		
+<!-- REVIEWS -->
+		<section class="reviews">
+			<div class="content-wrapper">
+				<h2>Be a better team in 5 days, like this one.</h2>
+				<article>
+					<div>
+						<h3>LaCrue Bottling Co. October 2018</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+					</div>
+				</article>
+			</div>
+		</section>
+	
+	</main> <!-- end main wrapper -->
+	
+<!-- FOOTER -->
+	<footer>
 		<div class="content-wrapper">
-			
 			<div class="footer-content">
-				
+	<!--CONTACT -->
 				<address class="contact">
-					
 					<h3>Contact</h3>
-					
 					<p>555-555-5555<br>
 						hello@unplugged.com
 					</p>
-				
 				</address>
-				
+	<!-- SOCIAL -->
 				<div class="social">
-					
+					<h4>Social</h4>
 					<div class="social-icons">
 						<p>
 							<a href="https://www.facebook.com/yoursite" target="_blank"></a>
+						</p>
+						<p>
 							<a href="https://www.twitter.com" target="_blank"></a>
+						</p>
+						<p>
 							<a href="https://www.instagram.com" target="_blank"></a>
 						</p>
 					</div>
-				
 				</div>
-			
 			</div> <!-- end footer content -->
-		
 		</div> <!-- end footer content wrapper -->
-		
+	<!-- COPYRIGHT -->
 		<div class="copyright">
-			
 			<h6>Copyright 2019 | Unplugged</h6>
-		
 		</div>
-	
 	</footer>
-	
+
+<!-- JAVA -->
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
