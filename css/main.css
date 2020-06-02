@@ -118,29 +118,33 @@ body {
 
 h1 {
 	font-size: 2.625em;
-	line-height: 2em;
+	font-weight: 500;
+	line-height: 42px;
 }
 
 h2 {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.5625em;
-	line-height: 1.095em;
+	font-weight: 500;
+	line-height: 30px;
 }
 
 h3,
 h4 {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.3125em;
-	line-height: .905em;
+	font-weight: 500;
+	line-height: 25px;
 }
 
 h6 {
 	font-size: .875em;
+	font-weight: 400;
 }
 
 p {
 	font-size: .8125em;
-	line-height: .6667em;
+	line-height: 21px;
 }
 
 a {
@@ -149,7 +153,9 @@ a {
 }
 
 ul {
+	font-weight: 700;
 	list-style: none;
+	text-transform: uppercase;
 }
 
 address {
@@ -160,6 +166,8 @@ address {
 
 header,
 footer {
+	background-color: #202322;
+	color: #ffffff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -221,8 +229,12 @@ footer .content-wrapper {
 
 footer .contact {
 	margin-bottom: 50px;
+	text-align: center;
 }
 
+footer .social {
+	text-align: center;
+}
 footer .social-icons {
 	display: flex;
 	justify-content: space-around;
@@ -237,6 +249,7 @@ footer .social-icons p {
 
 footer .copyright {
 	margin: 20px 0;
+	text-align: center;
 }
 
 
@@ -245,7 +258,6 @@ footer .copyright {
 /* HERO */
 
 .hero-area {
-	border: 1px solid gray;
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
@@ -254,7 +266,6 @@ footer .copyright {
 }
 
 .hero-area h1 {
-	border: 1px solid gray;
 	margin: 0 40px 0 20px;
 	padding-left: 2px;
 }
@@ -262,6 +273,7 @@ footer .copyright {
 /* ASIDE */
 
 aside {
+	background-color: #527158;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -270,7 +282,6 @@ aside {
 
 aside .form-description {
 	margin-bottom: 20px;
-	border: 1px solid gray;
 }
 
 aside .form-description h3{
@@ -279,15 +290,33 @@ aside .form-description h3{
 }
 
 aside .download {
-	border: 1px solid gray;
+	margin-top: 30px;
 }
 
 aside .download h3 {
 	padding: 0;
 }
-
-aside .download input {
-	
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #9d9ea4;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 
@@ -298,7 +327,6 @@ aside .download input {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	border: 1px solid gray;
 }
 
 .features h2 {
@@ -322,7 +350,9 @@ aside .download input {
 }
 
 .features .features-items .item-description {
+	color: #e1e2ea;
 	margin-bottom: 60px;
+	text-align: center;
 }
 
 .features p {
@@ -332,10 +362,10 @@ aside .download input {
 /* REVIEWS */
 
 .reviews {
+	background-color: #2a423a;
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
-	border: 1px solid gray;
 }
 
 .reviews h2 {
@@ -351,6 +381,7 @@ aside .download input {
    ========================================================================== */
 
 .mission {
+	background-color: #527158;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -367,6 +398,7 @@ aside .download input {
 }
 
 .general-contact {
+	background-color: #2a423a;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -383,11 +415,13 @@ aside .download input {
 }
 
 .general-info h4 {
+	color: #ffffff;
 	margin-top: 5px;
 	margin-bottom: 10px; 
 }
 
 .general-info p {
+	color: #e1e2ea;
 	margin: 10px 0;
 }
 
@@ -405,6 +439,7 @@ aside .download input {
    ========================================================================== */
 
 .faq {
+	background-color: #527158;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -425,6 +460,7 @@ aside .download input {
 
 .faq h2 {
 	margin-bottom: 40px;
+	text-align: left;
 } 
 
 
