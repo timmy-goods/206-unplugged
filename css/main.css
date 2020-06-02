@@ -467,6 +467,7 @@ aside .download input {
 
 @media only screen and (min-width: 786px) {
 				/* Tablet Stlyes */
+	
 	.content-wrapper {
 		max-width: 640px;
 		margin: 100px 0;
@@ -593,6 +594,7 @@ aside .download input {
 	
 	.faq-content {
 		display: flex;
+		flex-flow: wrap;
 		flex-basis: 40%;
 	}
 	
@@ -602,7 +604,73 @@ aside .download input {
 }
 
 @media only screen and (min-width: 1200px) {
-	/* Desktop Styles */
+	
+			/* Desktop Styles */
+	
+	.content-wrapper {
+		max-width: 960px;
+	}
+	
+/* HOMEPAGE */
+	
+
+  /* HERO */
+	
+	.hero-area h1 {
+		width: 60%;
+	}
+	
+  /* FORM DOWNLOAD */
+	
+	aside .content-wrapper {
+		justify-content: space-around;
+	}
+	
+	aside .content-wrapper .form-description,
+	aside .content-wrapper .download {
+		width: 30%;
+	}
+	
+  /* FEATURES */
+	
+	.features h2 {
+		width: 90%;
+	}
+	
+	.features article { 
+		flex-basis: 33%;
+	}
+	
+	/* REVIEWS */
+	
+	.reviews article div {
+    width: 42%;
+  }
+	
+	/* FOOTER */
+	
+	
+/* ABOUT */
+	
+	
+	.mission h2,
+    .general-contact .content-wrapper h2 {
+        width: 95%,
+    }
+ 
+    .general-contact .content-wrapper h2 {
+        margin-bottom: 40px;
+    }
+	
+/* FAQ */
+	
+	.faq h2 {
+        width: 100%;
+    }
+ 
+    .faq-content {
+        flex-basis: 45%
+    }
 }
 
 /* ==========================================================================
