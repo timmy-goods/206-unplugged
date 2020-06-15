@@ -152,6 +152,14 @@ address {
 	font-style: normal;
 }
 
+img {
+	width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
 .content-wrapper{
 	width: 90%;
 	margin: 50px 0; 
@@ -181,6 +189,14 @@ header .content-wrapper {
 	align-items: center;
 	flex-flow: row wrap;
 	margin: 0;
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .header-divider {
@@ -251,6 +267,8 @@ footer .copyright {
 /* HERO */
 
 .hero-area {
+	background: url("../img/jake-melara-30679-unsplash.jpg") center no-repeat #333;
+	background-size: cover;
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
@@ -276,7 +294,7 @@ aside {
 }
 
 aside .download {
-	margin-top: 30px;
+	margin-top: 25px;
 }
  
 input[type=text] {
@@ -305,6 +323,8 @@ input[type=button] {
 /* FEATURES*/
 
 .features {
+	background: url("../img/rawpixel-800820-unsplash1.jpg") center no-repeat #333;
+	background-size: cover;
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
@@ -523,7 +543,7 @@ input[type=button] {
     line-height: 1.333;
 }
 
-h3 {
+  h3 {
     font-size: 1.5em;
     line-height: 1.25;
 }
@@ -556,6 +576,10 @@ h3 {
   }
   /* Hero Area */
 
+  .hero-area {
+	  min-height: 600px;
+	}
+	
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -567,12 +591,13 @@ h3 {
     margin: 50px 0;
     display: flex;
     justify-content: space-between;
+	align-items: center;
     flex-flow: row wrap;
   }
 
   aside .content-wrapper .form-description,
-  aside .content-wrapper .form {
-    width: 40%;
+  aside .content-wrapper .download {
+    width: 45%;
     margin: 0;
   }
 
@@ -595,23 +620,29 @@ h3 {
   }
 
   /* Reviews */
-  .reviews article {
-    display: flex;
-    justify-content: space-between;
-  }
+	
 
   .reviews h2 {
     width: 85%;
   }
 
-  .reviews article div {
-    width: 49%;
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+	flex-flow: row wrap;
   }
+	
+  .reviews figure,
+	.reviews article div{
+	width: 49%;
+	}
 
   .reviews h3 {
     width: 75%;
     margin: 0;
 }
+	
   /* Footer */
   footer .content-wrapper {
     width: 65%;
@@ -723,6 +754,9 @@ h3 {
 	
 
   /* HERO */
+	.hero-area {
+		min-height: 775px;
+	}
 	
 	.hero-area h1 {
 		font-size: 3.75em;
