@@ -804,7 +804,8 @@ input[type=button] {
 	}
 	
 	.features article { 
-		flex-basis: 33%;
+		flex-basis: 30%;
+		margin: 15px;
 	}
 	
 	/* REVIEWS */
